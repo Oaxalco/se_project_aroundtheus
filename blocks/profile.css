@@ -44,12 +44,12 @@
 
 .profile__edit-button{
     background: transparent url(../images/edit_icon_white.svg) center no-repeat;
-    height: 24px;
     width: 24px;
-    border: none;
+    height: 24px;
     grid-area: button;
-    align-self: center;
-    margin-left: 18px;
+    border: 1px solid white;
+    margin: 15px 7px 9px 18px;
+    opacity: 100%;
     transition: width 2s;
     cursor: pointer;
 }
