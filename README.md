@@ -12,6 +12,6 @@ This project is made so all the elements are displayed correctly on popular scre
   
 GitHub Page
 
-You can view this project on my GitHub Page [here]: ()
+You can view this project on my GitHub Page [here]: (https://oaxalco.github.io/se_project_aroundtheus/)
 
 Project Briefing You may also watch my project Briefing [here]: (https://drive.google.com/file/d/1FPVdronC14dtnifmPNll9Y7PBfBvuMeC/view?usp=sharing)
