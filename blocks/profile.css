@@ -47,7 +47,6 @@
     width: 24px;
     height: 24px;
     grid-area: button;
-    border: 1px solid white;
     margin: 15px 7px 9px 18px;
     opacity: 100%;
     transition: width 2s;
