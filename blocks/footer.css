@@ -7,10 +7,16 @@
     font-size: 18px;
 }
 
-@media  screen and (max-width:480px) {
-    .footer__content{
-        margin: 48px 0 36px;
-        font-size: 14px;
-        line-height: 17px;
+@media screen and (max-width: 880px) {
+    .footer__content {
+      max-width: 581px;
+      margin: 48px auto 36px;
     }
-}
+  }
+  
+  @media screen and (max-width: 425px) {
+    .footer__content {
+      font-size: 14px;
+      max-width: 282px;
+    }
+  }

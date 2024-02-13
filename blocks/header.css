@@ -8,15 +8,25 @@
     margin: 45px 0 41px 0;
 }
 
-@media screen and (max-width: 480px) {
-    .header{
-        margin: 0;
-        padding: 28px 13px 32px 27px;
+@media screen and (max-width: 879px) {
+    .header {
+      margin: 0;
     }
-
-    .header__logo{
-        height: 24px;
-        width: 126px;
-        margin: 0;
+  
+    .header__logo {
+      margin: 28px auto 0 27px;
     }
-}
+  }
+  
+  @media screen and (max-width: 425px) {
+    .header {
+      max-width: 320px;
+    }
+  
+    .header__logo {
+      max-width: 126px;
+      max-height: 24px;
+      padding-bottom: 32px;
+      margin-right: 0;
+    }
+  }
