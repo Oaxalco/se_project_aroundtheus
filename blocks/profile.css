@@ -47,6 +47,7 @@
   background: transparent url(../images/edit_icon_white.svg) center no-repeat;
   width: 24px;
   height: 24px;
+  border: 1px solid white;
   grid-area: button;
   margin: 15px 7px 9px 18px;
   opacity: 100%;
@@ -139,7 +140,6 @@
     height: 18px;
     width: 18px;
     margin-left: 10px;
-    border: 1px solid white;
     align-self: baseline;
   }
 
