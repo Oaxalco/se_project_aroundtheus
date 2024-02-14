@@ -10,6 +10,7 @@
   height: 33px;
   width: 173px;
   margin: 45px 0 41px 0;
+  justify-content: flex-start;
 }
 
 @media screen and (max-width: 880px) {
