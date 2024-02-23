@@ -34,14 +34,87 @@
           <button type="button" class="profile__add-button"></button>
         </section>
         <section class="cards page__section">
-          <ul class="cards__list"></ul>
+          <ul class="cards__list">
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/yosemite.jpg"
+                alt="Yosemite Valley"
+              />
+              <div class="card__description">
+                <h2 class="card__title">Yosemite Valley</h2>
+                <button type="button" class="card__like-button"></button>
+                <button type="button" class="card__trash-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/lake-louise.jpg"
+                alt="Lake Louise"
+              />
+              <div class="card__description">
+                <h2 class="card__title">Lake Louise</h2>
+                <button type="button" class="card__like-button"></button>
+                <button type="button" class="card__trash-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/bald-mountains.jpg"
+                alt="Bald Mountains"
+              />
+              <div class="card__description">
+                <h2 class="card__title">Bald Mountains</h2>
+                <button type="button" class="card__like-button"></button>
+                <button type="button" class="card__trash-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/latemar.jpg"
+                alt="Latemar"
+              />
+              <div class="card__description">
+                <h2 class="card__title">Latemar</h2>
+                <button type="button" class="card__like-button"></button>
+                <button type="button" class="card__trash-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/vanoise.jpg"
+                alt="Vanoise National Park"
+              />
+              <div class="card__description">
+                <h2 class="card__title">Vanoise National Park</h2>
+                <button type="button" class="card__like-button"></button>
+                <button type="button" class="card__trash-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/lago.jpg"
+                alt="Lago di Braies"
+              />
+              <div class="card__description">
+                <h2 class="card__title">Lago di Braies</h2>
+                <button type="button" class="card__like-button"></button>
+                <button type="button" class="card__trash-button"></button>
+              </div>
+            </li>
+          </ul>
         </section>
       </main>
       <footer class="footer page__section">
-        <p class="footer__content">&#169; 2022 Around The U.S.</p>
+        <p class="footer__content">© 2022 Around The U.S.</p>
       </footer>
 
-      <div class="modal modal-edit">
+      <div class="modal modal-edit modal_opened">
         <div class="modal__container">
           <button class="modal__close"></button>
           <form class="modal__profile-form">
@@ -51,14 +124,14 @@
               type="text"
               name="title"
               placeholder="Name"
-              required
+              required=""
             />
             <input
               class="modal__input-text modal__form-description"
               type="text"
               name="description"
               placeholder="Description"
-              required
+              required=""
             />
             <button type="submit" class="modal__edit-submit-btn">Save</button>
           </form>
@@ -75,14 +148,14 @@
               type="text"
               name="title"
               placeholder="Title"
-              required
+              required=""
             />
             <input
               class="modal__input-text modal__input_type_url"
               type="text"
               name="url"
               placeholder="Image Link"
-              required
+              required=""
             />
             <button type="submit" class="modal__add-submit-btn">Save</button>
           </form>
@@ -109,6 +182,6 @@
       </li>
     </template>
 
-    <script src="./scripts/index.js" defer></script>
+    <script src="./scripts/index.js" defer=""></script>
   </body>
 </html>
