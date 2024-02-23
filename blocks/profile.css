@@ -11,7 +11,6 @@
   display: flex;
   align-items: center;
   padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .profile__image {
@@ -45,12 +44,12 @@
 
 .profile__edit-button {
   background: transparent url(../images/edit_icon_white.svg) center no-repeat;
-  width: 24px;
   height: 24px;
-  border: 1px solid white;
+  width: 24px;
+  border: none;
   grid-area: button;
-  margin: 15px 7px 9px 18px;
-  opacity: 100%;
+  align-self: center;
+  margin-left: 18px;
   transition: width 2s;
   cursor: pointer;
 }
@@ -125,7 +124,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
   .profile__image {
     margin: 0;
   }
@@ -140,6 +139,7 @@
     height: 18px;
     width: 18px;
     margin-left: 10px;
+    border: 1px solid white;
     align-self: baseline;
   }
 
@@ -150,7 +150,7 @@
 
   .profile__add-button {
     margin: 0 19px 0;
-    width: 282px;
+    width: 100%;
     padding: 0;
   }
 }
