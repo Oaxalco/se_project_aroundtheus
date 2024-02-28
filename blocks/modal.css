@@ -61,7 +61,7 @@
   font-size: 24px;
 }
 
-.modal__input {
+.modal__input-text {
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   line-height: 17px;
@@ -99,7 +99,7 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.modal__image {
+.modal-image {
   justify-content: center;
   align-items: center;
 }
