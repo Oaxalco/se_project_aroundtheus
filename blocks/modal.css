@@ -104,11 +104,11 @@
   align-items: center;
 }
 
-.modal-image_container {
+.modal__container-image {
   position: relative;
 }
 
-.modal-image_element {
+.modal__element-image {
   max-width: 75vw;
   max-height: 75vw;
 }
