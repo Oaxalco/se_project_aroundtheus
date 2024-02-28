@@ -48,7 +48,6 @@ const cardTitleInput = addNewCardModal.querySelector(
 );
 const cardUrlInput = addNewCardModal.querySelector(".modal__input_type_url");
 const imageModal = document.querySelector(".modal-image");
-const imageModalCloseBtn = imageModal.querySelector(".modal__close");
 
 function closeModal(modal) {
   modalCloseBtn.classList.remove("modal_opened");
