@@ -51,16 +51,13 @@ const imageModal = document.querySelector(".modal-image");
 const imageModalCloseBtn = imageModal.querySelector(".modal__close");
 
 function closeModal(modal) {
-  modalCloseBtn.classList.remove("modal_opened");
+  modal.classList.remove("modal_opened");
 }
 
-profileEditBtn.addEventListener("click", openModal);
 
 function openModal(modal) {
-  modalCloseBtn.classList.add("modal_opened");
+  modal.classList.add("modal_opened");
 }
-
-modalCloseBtn.addEventListener("click", closeModal)
 
 function getCardElement(data) {
   const cardElement = cardTemplate.cloneNode(true);
