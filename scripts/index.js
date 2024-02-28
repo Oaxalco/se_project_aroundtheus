@@ -47,7 +47,7 @@ const cardTitleInput = addNewCardModal.querySelector(
   ".modal__input_type_title"
 );
 const cardUrlInput = addNewCardModal.querySelector(".modal__input_type_url");
-const imageModal = document.querySelector(".modal-image");
+const imageModal = document.querySelector(".modal__image");
 const imageModalCloseBtn = imageModal.querySelector(".modal__close");
 
 function closeModal(modal) {
